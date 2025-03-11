@@ -1,2 +1,20 @@
 
 this is the branch file created under the branch1 in the repository and not the main
+
+
+after mergin the files have been updated to the main branch
+
+
+
+PS D:\git\manuallfolder> git checkout main
+Switched to branch 'main'
+PS D:\git\manuallfolder> git merge gitbranch1
+Updating e005120..7537557
+Fast-forward
+ branch.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 branch.txt  
+PS D:\git\manuallfolder> git push origin main
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/LavanyaPriyadharshini/manuallfolder.git
+   e005120..7537557  main -> main
